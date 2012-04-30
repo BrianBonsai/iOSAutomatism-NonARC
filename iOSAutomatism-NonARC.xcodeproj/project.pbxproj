@@ -15,6 +15,9 @@
 		3F7C4A89154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A88154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.m */; };
 		3F7C4A8C154D36430035B58B /* iOSAutomatism_NonARCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A8B154D36430035B58B /* iOSAutomatism_NonARCViewController.m */; };
 		3F7C4A8F154D36430035B58B /* iOSAutomatism_NonARCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F7C4A8D154D36430035B58B /* iOSAutomatism_NonARCViewController.xib */; };
+		3F7C4AB0154D367A0035B58B /* RSSAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A99154D367A0035B58B /* RSSAppController.m */; };
+		3F7C4AB1154D367A0035B58B /* RSSChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A9B154D367A0035B58B /* RSSChannel.m */; };
+		3F7C4AB2154D367A0035B58B /* RSSItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7C4A9D154D367A0035B58B /* RSSItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +25,21 @@
 		3F7C4A78154D36420035B58B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F7C4A7A154D36420035B58B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F7C4A7C154D36430035B58B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F7C4A80154D36430035B58B /* iOSAutomatism-NonARC-Info.plist */ = {isa = PBXFileReference; path = "iOSAutomatism-NonARC-Info.plist"; sourceTree = "<group>"; };
+		3F7C4A80154D36430035B58B /* iOSAutomatism-NonARC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSAutomatism-NonARC-Info.plist"; sourceTree = "<group>"; };
 		3F7C4A82154D36430035B58B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F7C4A84154D36430035B58B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F7C4A86154D36430035B58B /* iOSAutomatism-NonARC-Prefix.pch */ = {isa = PBXFileReference; path = "iOSAutomatism-NonARC-Prefix.pch"; sourceTree = "<group>"; };
-		3F7C4A87154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.h */ = {isa = PBXFileReference; path = iOSAutomatism_NonARCAppDelegate.h; sourceTree = "<group>"; };
+		3F7C4A86154D36430035B58B /* iOSAutomatism-NonARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSAutomatism-NonARC-Prefix.pch"; sourceTree = "<group>"; };
+		3F7C4A87154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAutomatism_NonARCAppDelegate.h; sourceTree = "<group>"; };
 		3F7C4A88154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAutomatism_NonARCAppDelegate.m; sourceTree = "<group>"; };
-		3F7C4A8A154D36430035B58B /* iOSAutomatism_NonARCViewController.h */ = {isa = PBXFileReference; path = iOSAutomatism_NonARCViewController.h; sourceTree = "<group>"; };
+		3F7C4A8A154D36430035B58B /* iOSAutomatism_NonARCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSAutomatism_NonARCViewController.h; sourceTree = "<group>"; };
 		3F7C4A8B154D36430035B58B /* iOSAutomatism_NonARCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSAutomatism_NonARCViewController.m; sourceTree = "<group>"; };
 		3F7C4A8E154D36430035B58B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/iOSAutomatism_NonARCViewController.xib; sourceTree = "<group>"; };
+		3F7C4A98154D367A0035B58B /* RSSAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSAppController.h; sourceTree = "<group>"; };
+		3F7C4A99154D367A0035B58B /* RSSAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSAppController.m; sourceTree = "<group>"; };
+		3F7C4A9A154D367A0035B58B /* RSSChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannel.h; sourceTree = "<group>"; };
+		3F7C4A9B154D367A0035B58B /* RSSChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannel.m; sourceTree = "<group>"; };
+		3F7C4A9C154D367A0035B58B /* RSSItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSItem.h; sourceTree = "<group>"; };
+		3F7C4A9D154D367A0035B58B /* RSSItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +59,7 @@
 		3F7C4A69154D36420035B58B = {
 			isa = PBXGroup;
 			children = (
+				3F7C4A95154D367A0035B58B /* TestSingleView1 */,
 				3F7C4A7E154D36430035B58B /* iOSAutomatism-NonARC */,
 				3F7C4A77154D36420035B58B /* Frameworks */,
 				3F7C4A75154D36420035B58B /* Products */,
@@ -96,6 +106,36 @@
 				3F7C4A86154D36430035B58B /* iOSAutomatism-NonARC-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F7C4A95154D367A0035B58B /* TestSingleView1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A96154D367A0035B58B /* TestSingleView1 */,
+			);
+			name = TestSingleView1;
+			path = ../TestSingleView1;
+			sourceTree = "<group>";
+		};
+		3F7C4A96154D367A0035B58B /* TestSingleView1 */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A97154D367A0035B58B /* Classes */,
+			);
+			path = TestSingleView1;
+			sourceTree = "<group>";
+		};
+		3F7C4A97154D367A0035B58B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3F7C4A98154D367A0035B58B /* RSSAppController.h */,
+				3F7C4A99154D367A0035B58B /* RSSAppController.m */,
+				3F7C4A9A154D367A0035B58B /* RSSChannel.h */,
+				3F7C4A9B154D367A0035B58B /* RSSChannel.m */,
+				3F7C4A9C154D367A0035B58B /* RSSItem.h */,
+				3F7C4A9D154D367A0035B58B /* RSSItem.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +203,9 @@
 				3F7C4A85154D36430035B58B /* main.m in Sources */,
 				3F7C4A89154D36430035B58B /* iOSAutomatism_NonARCAppDelegate.m in Sources */,
 				3F7C4A8C154D36430035B58B /* iOSAutomatism_NonARCViewController.m in Sources */,
+				3F7C4AB0154D367A0035B58B /* RSSAppController.m in Sources */,
+				3F7C4AB1154D367A0035B58B /* RSSChannel.m in Sources */,
+				3F7C4AB2154D367A0035B58B /* RSSItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
