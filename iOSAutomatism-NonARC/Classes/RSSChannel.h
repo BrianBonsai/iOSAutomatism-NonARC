@@ -11,10 +11,24 @@
 @interface RSSChannel : NSObject
 {
     NSString*   _identifier;
-    NSString*   _feedUrlStrin;
+    NSString*   _feedUrlString;
     NSString*   _title;
     NSString*   _link;
     
     NSMutableArray* _items;
 }
+
+//クラスメソッドで？？
+//+(id) init;
+-(id) init;
+
+
+//@property
+@property(nonatomic,readonly)NSString* identifier;
+@property(nonatomic,retain)NSString* feedUrlString;
+@property(nonatomic,retain)NSString* title;
+@property(nonatomic,retain)NSString* link;
+@property(nonatomic,retain)NSMutableArray* items;
+
+
 @end

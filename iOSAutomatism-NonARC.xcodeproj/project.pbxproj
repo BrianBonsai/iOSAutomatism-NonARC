@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B27C241154F5F2100656F0A /* RSSChannelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B27C240154F5F2100656F0A /* RSSChannelManager.m */; };
 		3F7C4A79154D36420035B58B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A78154D36420035B58B /* UIKit.framework */; };
 		3F7C4A7B154D36430035B58B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A7A154D36420035B58B /* Foundation.framework */; };
 		3F7C4A7D154D36430035B58B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7C4A7C154D36430035B58B /* CoreGraphics.framework */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B27C23F154F5F2100656F0A /* RSSChannelManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSChannelManager.h; sourceTree = "<group>"; };
+		2B27C240154F5F2100656F0A /* RSSChannelManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSChannelManager.m; sourceTree = "<group>"; };
 		3F7C4A74154D36420035B58B /* iOSAutomatism-NonARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOSAutomatism-NonARC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7C4A78154D36420035B58B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F7C4A7A154D36420035B58B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -117,6 +120,8 @@
 				3FC9FB04154F5AE00046A4E7 /* RSSChannel.m */,
 				3FC9FB05154F5AE00046A4E7 /* RSSItem.h */,
 				3FC9FB06154F5AE00046A4E7 /* RSSItem.m */,
+				2B27C23F154F5F2100656F0A /* RSSChannelManager.h */,
+				2B27C240154F5F2100656F0A /* RSSChannelManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				3FC9FB07154F5AE00046A4E7 /* RSSAppController.m in Sources */,
 				3FC9FB08154F5AE00046A4E7 /* RSSChannel.m in Sources */,
 				3FC9FB09154F5AE00046A4E7 /* RSSItem.m in Sources */,
+				2B27C241154F5F2100656F0A /* RSSChannelManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,7 +239,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -250,7 +256,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
